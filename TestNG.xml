@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BankingDemoV1">
+
+	<listeners>
+		<listener class-name="com.banking.utilities.Reporting"/>
+	</listeners>
+		
+	<test name="BankingDemoV1">
+		<parameter name="browserName" value="firefox"/>		
+		<classes>
+			<class name="com.banking.testCases.TC01_Login"/>
+			<!-- <class name="com.banking.testCases.TC02_LoginDDT"/> -->
+			<!-- class name="com.banking.testCases.TC03_AddNewCustomer"/> -->
+		</classes>
+	</test>
+</suite>
